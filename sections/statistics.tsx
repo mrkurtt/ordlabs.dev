@@ -8,7 +8,7 @@ export default function Statistics() {
 				<div
 					data-aos="fade-down"
 					data-aos-duration="1000"
-					className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4 py-8"
+					className="w-full grid grid-cols-4 gap-x-4 py-8"
 				>
 					{servicesContent.statistics.map((stat, index) => (
 						<Statistic
