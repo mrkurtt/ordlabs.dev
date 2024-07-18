@@ -6,7 +6,11 @@ import { footerLinks } from '@/content/footer';
 
 export default function Footer() {
 	return (
-		<footer className="text-white w-full bg-gradient-to-r from-primary to-secondary">
+		<footer
+			data-aos="zoom-up"
+			data-aos-duration="1000"
+			className="text-white w-full bg-gradient-to-r from-primary to-secondary"
+		>
 			<hr />
 			<div className="py-8 px-4 sm:px-[50px] md:px-[100px] lg:px-[100px]">
 				<div className="w-full grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-y-4">

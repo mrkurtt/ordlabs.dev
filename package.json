@@ -11,6 +11,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "@nextui-org/react": "^2.4.2",
+    "aos": "^2.3.4",
     "framer-motion": "^11.3.2",
     "next": "14.2.5",
     "react": "^18",
@@ -19,6 +20,7 @@
     "swiper": "^11.1.5"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

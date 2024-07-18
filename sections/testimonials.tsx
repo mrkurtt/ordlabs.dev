@@ -18,7 +18,11 @@ export default function Testimonials() {
 	return (
 		<div className="py-16 px-4 sm:px-[50px] md:px-[100px] lg:px-[100px]">
 			<SectionTitle title="What Our Clients Say" />
-			<div className="w-full place-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 py-8">
+			<div
+				data-aos="zoom-in-down"
+				data-aos-duration="1000"
+				className="w-full place-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 py-8"
+			>
 				{servicesContent.testimonials.map((testimonial, index) => (
 					<Testimony
 						key={`testimonial-${index}`}

@@ -9,7 +9,7 @@ export default function About() {
 			<SectionTitle title="Get To Know Us" />
 			<div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 py-8">
 				<div className="flex justify-center items-center col-span-1 md:col-span-1 lg:col-span-2">
-					<div>
+					<div data-aos="fade-right" data-aos-duration="1000">
 						<Image
 							className="w-80 sm:w-[100px] md:w-[300px] lg:w-[400px]"
 							src={aboutContent.companyLogo.image}
@@ -18,7 +18,11 @@ export default function About() {
 					</div>
 				</div>
 				<div className="flex items-center sm:col-span-1 md:col-span-2 lg:col-span-3 px-2 sm:px-4 md:px-6 lg:px-8">
-					<div className="flex flex-col">
+					<div
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						className="flex flex-col"
+					>
 						<CompanyInfo
 							title="Who We Are"
 							description={aboutContent.description}

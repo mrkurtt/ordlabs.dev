@@ -21,7 +21,7 @@ export default function Services() {
 				</div>
 			</div>
 			<Statistics />
-			<Testimonials />
+			{/* <Testimonials /> */}
 		</>
 	);
 }
