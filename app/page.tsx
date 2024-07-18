@@ -15,7 +15,7 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div className="flex min-h-screen flex-col items-center justify-between">
+		<div className="overflow-hidden flex min-h-screen flex-col items-center justify-between">
 			<SectionContainer sectionId="home">
 				<Hero />
 			</SectionContainer>
