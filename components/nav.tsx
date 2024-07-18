@@ -20,7 +20,7 @@ export default function Nav() {
 
 	return (
 		<Navbar maxWidth="full" onMenuOpenChange={setIsMenuOpen} isBordered>
-			<NavbarContent data-aos="fade-right" data-aos-duration="1000">
+			<NavbarContent>
 				<NavbarMenuToggle
 					aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
 					className="sm:hidden"
@@ -34,12 +34,7 @@ export default function Nav() {
 				</NavbarBrand>
 			</NavbarContent>
 
-			<NavbarContent
-				data-aos="fade-down"
-				data-aos-duration="1000"
-				className="hidden sm:flex gap-4"
-				justify="center"
-			>
+			<NavbarContent className="hidden sm:flex gap-4" justify="center">
 				{navItems.map((item, index) => (
 					<NavbarItem key={`${item}-${index}`}>
 						<a
@@ -51,11 +46,7 @@ export default function Nav() {
 					</NavbarItem>
 				))}
 			</NavbarContent>
-			<NavbarContent
-				data-aos="fade-left"
-				data-aos-duration="1000"
-				justify="end"
-			>
+			<NavbarContent justify="end">
 				<NavbarItem>
 					<Button
 						className="bg-gradient-to-r from-primary to-secondary text-white"
