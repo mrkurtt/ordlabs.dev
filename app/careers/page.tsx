@@ -1,6 +1,11 @@
 import JobOpenings from '@/components/jobOpenings';
 import SectionTitle from '@/components/title';
 import { careersContent, jobOpenings, showCareers } from '@/content/careers';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Careers',
+};
 
 export default function Page() {
 	return (
