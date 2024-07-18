@@ -21,16 +21,12 @@ export default function Contact() {
 						{/* FORM */}
 						<div data-aos="zoom-in-up" data-aos-duration="1000" className="">
 							<div className="flex flex-col gap-y-4">
-								<div className="grid grid-cols-2 gap-x-3 lg:gap-x-8 ">
+								<div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 gap-x-3 lg:gap-x-8 ">
 									<Input type="text" placeholder="Enter your first name" />
 									<Input type="text" placeholder="Enter your last name" />
 								</div>
 
-								<Input
-									type="email"
-									// label="Email"
-									placeholder="Enter your email"
-								/>
+								<Input type="email" placeholder="Enter your email" />
 								<Input type="text" placeholder="Enter your phone number" />
 								<Textarea placeholder="Tell us about your project or how we can assist you..." />
 								<Button className="bg-gradient-to-r from-primary to-secondary text-white text-md">
